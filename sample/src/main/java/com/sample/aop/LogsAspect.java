@@ -1,17 +1,17 @@
 package com.sample.aop;
 
-import com.sgaop.basis.annotation.Action;
-import com.sgaop.basis.annotation.Aspect;
-import com.sgaop.basis.annotation.Inject;
-import com.sgaop.basis.annotation.IocBean;
-import com.sgaop.basis.aop.InterceptorProxy;
-import com.sgaop.basis.dao.Dao;
+import com.aude.mvc.annotation.Action;
+import com.aude.mvc.annotation.Aspect;
+import com.aude.mvc.annotation.Inject;
+import com.aude.mvc.annotation.IocBean;
+import com.aude.mvc.aop.InterceptorProxy;
+import com.aude.mvc.dao.Dao;
 
 import java.lang.reflect.Method;
 
 /**
  * Created by IntelliJ IDEA.
- * User: 306955302@qq.com
+ * User: audestick@gmail.com
  * Date: 2016/10/12 0012
  * To change this template use File | Settings | File Templates.
  * 记录用户访问的所以业务操作

@@ -1,7 +1,7 @@
 package com.sample.action;
 
-import com.sgaop.basis.annotation.*;
-import com.sgaop.basis.dao.Dao;
+import com.aude.mvc.annotation.*;
+import com.aude.mvc.dao.Dao;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.apache.shiro.authz.annotation.RequiresUser;
 

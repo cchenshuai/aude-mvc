@@ -2,7 +2,7 @@ package com.sample.error;
 
 /**
  * Created by IntelliJ IDEA.
- * User: 306955302@qq.com
+ * User: audestick@gmail.com
  * Date: 2016/10/9 0009
  * To change this template use File | Settings | File Templates.
  */

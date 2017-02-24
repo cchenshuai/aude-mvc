@@ -1,9 +1,9 @@
 package com.sample.action;
 
 import com.sample.entity.Topic;
-import com.sgaop.basis.annotation.*;
-import com.sgaop.basis.dao.Dao;
-import com.sgaop.basis.trans.TransAop;
+import com.aude.mvc.annotation.*;
+import com.aude.mvc.dao.Dao;
+import com.aude.mvc.trans.TransAop;
 
 import javax.servlet.http.HttpServletRequest;
 import java.sql.SQLException;
@@ -11,7 +11,7 @@ import java.sql.SQLException;
 
 /**
  * Created by IntelliJ IDEA.
- * User: 306955302@qq.com
+ * User: audestick@gmail.com
  * Date: 2016/5/8 0008
  * To change this template use File | Settings | File Templates.
  *

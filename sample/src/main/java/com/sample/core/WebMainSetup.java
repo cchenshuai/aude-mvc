@@ -1,21 +1,21 @@
 package com.sample.core;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import com.sgaop.basis.annotation.Setup;
-import com.sgaop.basis.cache.PropertiesManager;
-import com.sgaop.basis.dao.DaosRegister;
-import com.sgaop.basis.dao.impl.DaoImpl;
-import com.sgaop.basis.mvc.view.ViewsRegister;
-import com.sgaop.basis.plugin.views.BeetlView;
-import com.sgaop.basis.plugin.views.FreeMarkerView;
-import com.sgaop.basis.web.WebSetup;
+import com.aude.mvc.annotation.Setup;
+import com.aude.mvc.cache.PropertiesManager;
+import com.aude.mvc.dao.DaosRegister;
+import com.aude.mvc.dao.impl.DaoImpl;
+import com.aude.mvc.mvc.view.ViewsRegister;
+import com.aude.mvc.plugin.views.BeetlView;
+import com.aude.mvc.plugin.views.FreeMarkerView;
+import com.aude.mvc.web.WebSetup;
 
 import javax.servlet.ServletContextEvent;
 import javax.sql.DataSource;
 
 /**
  * Created by IntelliJ IDEA.
- * User: 306955302@qq.com
+ * User: audestick@gmail.com
  * Date: 2016/5/16 0016
  * To change this template use File | Settings | File Templates.
  */

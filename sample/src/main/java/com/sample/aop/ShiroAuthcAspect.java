@@ -1,10 +1,10 @@
 package com.sample.aop;
 
 import com.sample.error.AuthzException;
-import com.sgaop.basis.annotation.Action;
-import com.sgaop.basis.annotation.Aspect;
-import com.sgaop.basis.annotation.IocBean;
-import com.sgaop.basis.aop.InterceptorProxy;
+import com.aude.mvc.annotation.Action;
+import com.aude.mvc.annotation.Aspect;
+import com.aude.mvc.annotation.IocBean;
+import com.aude.mvc.aop.InterceptorProxy;
 import org.apache.log4j.Logger;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AccountException;
@@ -20,7 +20,7 @@ import java.util.Collection;
 
 /**
  * Created by IntelliJ IDEA.
- * User: 306955302@qq.com
+ * User: audestick@gmail.com
  * Date: 2016/10/9 0009
  * To change this template use File | Settings | File Templates.
  * 结合shiro控制用户访问后台方法

@@ -1,12 +1,12 @@
 package com.sample.aop;
 
-import com.sgaop.basis.annotation.IocBean;
-import com.sgaop.basis.aop.proxy.Proxy;
-import com.sgaop.basis.aop.proxy.ProxyChain;
+import com.aude.mvc.annotation.IocBean;
+import com.aude.mvc.aop.proxy.Proxy;
+import com.aude.mvc.aop.proxy.ProxyChain;
 
 /**
  * Created by IntelliJ IDEA.
- * User: 306955302@qq.com
+ * User: audestick@gmail.com
  * Date: 2016/10/11 0011
  * To change this template use File | Settings | File Templates.
  */

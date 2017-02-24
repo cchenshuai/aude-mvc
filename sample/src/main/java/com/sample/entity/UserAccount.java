@@ -1,8 +1,8 @@
 package com.sample.entity;
 
-import com.sgaop.basis.annotation.Colum;
-import com.sgaop.basis.annotation.Pk;
-import com.sgaop.basis.annotation.Table;
+import com.aude.mvc.annotation.Colum;
+import com.aude.mvc.annotation.Pk;
+import com.aude.mvc.annotation.Table;
 
 import java.sql.Timestamp;
 

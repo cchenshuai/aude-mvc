@@ -1,14 +1,14 @@
 package com.sample.aop;
 
-import com.sgaop.basis.annotation.IocBean;
-import com.sgaop.basis.aop.InterceptorProxy;
+import com.aude.mvc.annotation.IocBean;
+import com.aude.mvc.aop.InterceptorProxy;
 import org.apache.log4j.Logger;
 
 import java.lang.reflect.Method;
 
 /**
  * Created by IntelliJ IDEA.
- * User: 306955302@qq.com
+ * User: audestick@gmail.com
  * Date: 2016/10/9 0009
  * To change this template use File | Settings | File Templates.
  */

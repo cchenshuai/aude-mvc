@@ -1,8 +1,8 @@
 package com.sample.action;
 
-import com.sgaop.basis.annotation.*;
-import com.sgaop.basis.dao.Dao;
-import com.sgaop.basis.mvc.AjaxResult;
+import com.aude.mvc.annotation.*;
+import com.aude.mvc.dao.Dao;
+import com.aude.mvc.mvc.AjaxResult;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
@@ -14,7 +14,7 @@ import javax.servlet.http.HttpSession;
 
 /**
  * Created by IntelliJ IDEA.
- * User: 306955302@qq.com
+ * User: audestick@gmail.com
  * Date: 2016/10/12 0012
  * To change this template use File | Settings | File Templates.
  */
