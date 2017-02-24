@@ -1,8 +1,6 @@
 # **audeMVC**
 - 基于servlet与java注解的Web MVC 快速开发框架
 
-示例项目[mvcMvcSample](https://github.com/threefish/mvcMvcSample "示例项目")
-
 ### 现已实现以下功能
 #### IOC、AOP、ORM、MVC
 #### 集成quartz,beetl
