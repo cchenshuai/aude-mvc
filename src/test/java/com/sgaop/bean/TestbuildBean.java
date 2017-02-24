@@ -1,8 +1,8 @@
-package com.sgaop.bean;
+package com.aude.bean;
 
 /**
  * Created by IntelliJ IDEA.
- * User: 306955302@qq.com
+ * User: audestick@gmail.com
  * Date: 2016/5/13 0013
  * To change this template use File | Settings | File Templates.
  */

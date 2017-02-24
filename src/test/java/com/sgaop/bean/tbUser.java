@@ -1,15 +1,14 @@
-package com.sgaop.bean;
+package com.aude.bean;
 
-import com.sgaop.basis.annotation.Colum;
-import com.sgaop.basis.annotation.ID;
-import com.sgaop.basis.annotation.Pk;
-import com.sgaop.basis.annotation.Table;
+import com.aude.mvc.annotation.Colum;
+import com.aude.mvc.annotation.Pk;
+import com.aude.mvc.annotation.Table;
 
 import java.sql.Timestamp;
 
 /**
  * Created by IntelliJ IDEA.
- * User: 306955302@qq.com
+ * User: audestick@gmail.com
  * Date: 2016/5/27 0027
  * To change this template use File | Settings | File Templates.
  */

@@ -1,0 +1,17 @@
+package com.aude.mvc.web;
+
+import javax.servlet.ServletContextEvent;
+
+
+/**
+ * Created by IntelliJ IDEA.
+ * User: audestick@gmail.com
+ * Date: 2016/5/16 0016
+ * To change this template use File | Settings | File Templates.
+ */
+public interface WebSetup {
+
+    void init(ServletContextEvent servletContextEvent);
+
+    void destroy(ServletContextEvent servletContextEvent);
+}

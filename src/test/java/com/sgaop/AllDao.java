@@ -1,16 +1,16 @@
-package com.sgaop;
+package com.aude;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.google.gson.Gson;
-import com.sgaop.basis.cache.PropertiesManager;
-import com.sgaop.basis.dao.Condition;
-import com.sgaop.basis.dao.DaosRegister;
-import com.sgaop.basis.dao.Dao;
-import com.sgaop.basis.dao.impl.DaoImpl;
-import com.sgaop.basis.ioc.IocBeanContext;
-import com.sgaop.basis.scanner.ClassHelper;
-import com.sgaop.basis.scanner.PropertiesScans;
-import com.sgaop.bean.tbUser;
+import com.aude.mvc.cache.PropertiesManager;
+import com.aude.mvc.dao.Condition;
+import com.aude.mvc.dao.DaosRegister;
+import com.aude.mvc.dao.Dao;
+import com.aude.mvc.dao.impl.DaoImpl;
+import com.aude.mvc.ioc.IocBeanContext;
+import com.aude.mvc.scanner.ClassHelper;
+import com.aude.mvc.scanner.PropertiesScans;
+import com.aude.bean.tbUser;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -23,7 +23,7 @@ import java.util.Properties;
 
 /**
  * Created by IntelliJ IDEA.
- * User: 306955302@qq.com
+ * User: audestick@gmail.com
  * Date: 2016/11/23 0023
  * To change this template use File | Settings | File Templates.
  */

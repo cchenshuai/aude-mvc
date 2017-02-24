@@ -1,0 +1,29 @@
+package com.aude.mvc.mvc.view;
+
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Created by IntelliJ IDEA.
+ * User: audestick@gmail.com
+ * Date: 2016/9/5 0005
+ * To change this template use File | Settings | File Templates.
+ */
+public interface View {
+
+    /**
+     * @param path     @OK("jsp : path值")
+     * @param request
+     * @param response
+     * @param data     用户自定义返回的数据值
+     */
+    void render(String path, HttpServletRequest request, HttpServletResponse response, Object data);
+
+    /**
+     * @param request
+     * @param response
+     */
+    void afterProcess(HttpServletRequest request, HttpServletResponse response);
+
+}
